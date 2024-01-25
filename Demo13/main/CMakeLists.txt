@@ -1,0 +1,6 @@
+add_executable(main main.c ../src/add.c)
+
+# 设置可执行程序的输出路径
+set_target_properties(main PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../bin
+)

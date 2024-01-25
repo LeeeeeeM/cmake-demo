@@ -1,0 +1,1 @@
+int fn2 (int b);
