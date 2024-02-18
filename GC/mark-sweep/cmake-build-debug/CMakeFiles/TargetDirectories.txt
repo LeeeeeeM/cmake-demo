@@ -1,0 +1,4 @@
+/Users/sunliangmu/work/c-code/GC/mark-sweep/cmake-build-debug/CMakeFiles/main.dir
+/Users/sunliangmu/work/c-code/GC/mark-sweep/cmake-build-debug/CMakeFiles/main1.dir
+/Users/sunliangmu/work/c-code/GC/mark-sweep/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sunliangmu/work/c-code/GC/mark-sweep/cmake-build-debug/CMakeFiles/rebuild_cache.dir
