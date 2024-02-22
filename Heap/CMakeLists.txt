@@ -9,3 +9,5 @@ project(heap)
 
 add_executable(main main.c)
 # target_link_libraries(main utils)
+
+add_executable(main1 main1.c)
