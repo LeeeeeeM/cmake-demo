@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 
-project(delete)
+project(linked_list)
 
 include_directories(${PROJECT_SOURCE_DIR}/includes)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC)
