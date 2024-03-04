@@ -1,4 +1,11 @@
 #include <stdio.h>
+
+void swap(int *a, int *b) {
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+}
+
 void selectionSort(int *arr, int size) {
   for (int i = 0; i < size - 1; i++) {
     int minIndex = i;
@@ -7,9 +14,10 @@ void selectionSort(int *arr, int size) {
         minIndex = j;
       }
     }
-    int temp = *(arr + i);
-    *(arr + i) = *(arr + minIndex);
-    *(arr + minIndex) = temp;
+    // int temp = *(arr + i);
+    // *(arr + i) = *(arr + minIndex);
+    // *(arr + minIndex) = temp;
+    swap(arr + i, arr + minIndex);
   }
 }
 
